@@ -1,0 +1,17 @@
+{
+  "name": "Hidden Overflow Remover",
+  "description": "This Chrome extension for remove body tag overflow hidden property",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["main.js"]
+    }
+  ],
+  "icons": {
+    "128": "/images/down-squared.png"
+  }
+}
